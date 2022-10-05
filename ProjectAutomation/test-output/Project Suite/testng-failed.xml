@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Project Suite]">
+  <test thread-count="5" name="SastoDeal test(failed)">
+    <parameter name="number" value="9860200885"/>
+    <parameter name="testng.metrics.report.name" value="regression.html"/>
+    <parameter name="password" value="Sund@y12345"/>
+    <parameter name="testng.metrics.report.logo" value="https://i.ibb.co/FqtQyC5/rfh.png"/>
+    <parameter name="address" value="Itachhen-2,Bhaktapur"/>
+    <parameter name="province" value="Provinces No 3"/>
+    <parameter name="testng.metrics.report.appendTimestamp" value="True"/>
+    <parameter name="district" value="Bhaktapur"/>
+    <parameter name="region" value="Sallaghari"/>
+    <parameter name="URL" value="https://www.sastodeal.com/"/>
+    <parameter name="email" value="amirmanandhar72@gmail.com"/>
+    <classes>
+      <class name="SastoDeal">
+        <methods>
+          <include name="clickPaymentMethod"/>
+        </methods>
+      </class> <!-- SastoDeal -->
+    </classes>
+  </test> <!-- SastoDeal test(failed) -->
+</suite> <!-- Failed suite [Project Suite] -->

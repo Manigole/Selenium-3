@@ -1,0 +1,219 @@
+<html>
+<head>
+<title>TestNG:  OldPinch test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>OldPinch test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 04 15:07:11 NPT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>101 seconds (101967 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td>Payment BrowserSetup Chat Product </td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Oldpinch.addQuantity()'><b>addQuantity</b><br>Test class: Oldpinch<br>Parameters: 3</td>
+<td></td>
+<td>3</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.checkOutAgain()'><b>checkOutAgain</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>11</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.city()'><b>city</b><br>Test class: Oldpinch<br>Parameters: Achham</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clearQuantity()'><b>clearQuantity</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickAddToCart()'><b>clickAddToCart</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>8</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickCart()'><b>clickCart</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>5</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickItem()'><b>clickItem</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>7</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickNextPic()'><b>clickNextPic</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>2</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickOnline()'><b>clickOnline</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>6</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickPayment()'><b>clickPayment</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>5</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickProceedToCheckout()'><b>clickProceedToCheckout</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>1</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.clickSearchButton()'><b>clickSearchButton</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>6</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.editCart()'><b>editCart</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>7</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterAddress()'><b>enterAddress</b><br>Test class: Oldpinch<br>Parameters: some Random address</td>
+<td></td>
+<td>1</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterCompany()'><b>enterCompany</b><br>Test class: Oldpinch<br>Parameters: random Company</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterEmail()'><b>enterEmail</b><br>Test class: Oldpinch<br>Parameters: randomEmail@gmail.com</td>
+<td></td>
+<td>1</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterPassword()'><b>enterPassword</b><br>Test class: Oldpinch<br>Parameters: r@ndomPassword12345</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterSearchText()'><b>enterSearchText</b><br>Test class: Oldpinch<br>Parameters: sunglasses</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterSignIn()'><b>enterSignIn</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>11</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterText()'><b>enterText</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>3</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.enterUrl()'><b>enterUrl</b><br>Test class: Oldpinch<br>Parameters: https://oldpinch.com/</td>
+<td></td>
+<td>8</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.invokeBrowser()'><b>invokeBrowser</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>3</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.maximizeWindow()'><b>maximizeWindow</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.phone()'><b>phone</b><br>Test class: Oldpinch<br>Parameters: 1212121212</td>
+<td></td>
+<td>5</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.selectCountry()'><b>selectCountry</b><br>Test class: Oldpinch<br>Parameters: Nepal</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.selectState()'><b>selectState</b><br>Test class: Oldpinch<br>Parameters: Achham</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.sendChat()'><b>sendChat</b><br>Test class: Oldpinch</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+<tr>
+<td title='Oldpinch.zip()'><b>zip</b><br>Test class: Oldpinch<br>Parameters: 444444</td>
+<td></td>
+<td>0</td>
+<td>Oldpinch@11531931</td></tr>
+</table><p>
+</body>
+</html>

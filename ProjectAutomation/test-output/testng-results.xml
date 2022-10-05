@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="44" passed="43">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Project Suite" duration-ms="239788" started-at="2022-05-04T05:20:35Z" finished-at="2022-05-04T05:24:35Z">
+    <groups>
+      <group name="Payment">
+        <method signature="Oldpinch.checkOutAgain()[pri:35, instance:Oldpinch@1fbc7afb]" name="checkOutAgain" class="Oldpinch"/>
+        <method signature="Oldpinch.city(java.lang.String)[pri:39, instance:Oldpinch@1fbc7afb]" name="city" class="Oldpinch"/>
+        <method signature="Oldpinch.clickPayment()[pri:44, instance:Oldpinch@1fbc7afb]" name="clickPayment" class="Oldpinch"/>
+        <method signature="Oldpinch.clickProceedToCheckout()[pri:28, instance:Oldpinch@1fbc7afb]" name="clickProceedToCheckout" class="Oldpinch"/>
+        <method signature="Oldpinch.enterAddress(java.lang.String)[pri:38, instance:Oldpinch@1fbc7afb]" name="enterAddress" class="Oldpinch"/>
+        <method signature="Oldpinch.enterCompany(java.lang.String)[pri:37, instance:Oldpinch@1fbc7afb]" name="enterCompany" class="Oldpinch"/>
+        <method signature="Oldpinch.enterEmail(java.lang.String)[pri:30, instance:Oldpinch@1fbc7afb]" name="enterEmail" class="Oldpinch"/>
+        <method signature="Oldpinch.enterPassword(java.lang.String)[pri:31, instance:Oldpinch@1fbc7afb]" name="enterPassword" class="Oldpinch"/>
+        <method signature="Oldpinch.enterSignIn()[pri:33, instance:Oldpinch@1fbc7afb]" name="enterSignIn" class="Oldpinch"/>
+        <method signature="Oldpinch.phone(java.lang.String)[pri:43, instance:Oldpinch@1fbc7afb]" name="phone" class="Oldpinch"/>
+        <method signature="Oldpinch.selectCountry(java.lang.String)[pri:39, instance:Oldpinch@1fbc7afb]" name="selectCountry" class="Oldpinch"/>
+        <method signature="Oldpinch.selectState(java.lang.String)[pri:40, instance:Oldpinch@1fbc7afb]" name="selectState" class="Oldpinch"/>
+        <method signature="Oldpinch.zip(java.lang.String)[pri:42, instance:Oldpinch@1fbc7afb]" name="zip" class="Oldpinch"/>
+      </group> <!-- Payment -->
+      <group name="BrowserSetup">
+        <method signature="Oldpinch.enterUrl(java.lang.String)[pri:2, instance:Oldpinch@1fbc7afb]" name="enterUrl" class="Oldpinch"/>
+        <method signature="Oldpinch.invokeBrowser()[pri:1, instance:Oldpinch@1fbc7afb]" name="invokeBrowser" class="Oldpinch"/>
+        <method signature="Oldpinch.maximizeWindow()[pri:3, instance:Oldpinch@1fbc7afb]" name="maximizeWindow" class="Oldpinch"/>
+      </group> <!-- BrowserSetup -->
+      <group name="Chat">
+        <method signature="Oldpinch.clickOnline()[pri:50, instance:Oldpinch@1fbc7afb]" name="clickOnline" class="Oldpinch"/>
+        <method signature="Oldpinch.enterText()[pri:51, instance:Oldpinch@1fbc7afb]" name="enterText" class="Oldpinch"/>
+        <method signature="Oldpinch.sendChat()[pri:52, instance:Oldpinch@1fbc7afb]" name="sendChat" class="Oldpinch"/>
+      </group> <!-- Chat -->
+      <group name="Product">
+        <method signature="Oldpinch.addQuantity(java.lang.String)[pri:15, instance:Oldpinch@1fbc7afb]" name="addQuantity" class="Oldpinch"/>
+        <method signature="Oldpinch.clearQuantity()[pri:13, instance:Oldpinch@1fbc7afb]" name="clearQuantity" class="Oldpinch"/>
+        <method signature="Oldpinch.clickAddToCart()[pri:20, instance:Oldpinch@1fbc7afb]" name="clickAddToCart" class="Oldpinch"/>
+        <method signature="Oldpinch.clickCart()[pri:24, instance:Oldpinch@1fbc7afb]" name="clickCart" class="Oldpinch"/>
+        <method signature="Oldpinch.clickItem()[pri:10, instance:Oldpinch@1fbc7afb]" name="clickItem" class="Oldpinch"/>
+        <method signature="Oldpinch.clickNextPic()[pri:21, instance:Oldpinch@1fbc7afb]" name="clickNextPic" class="Oldpinch"/>
+        <method signature="Oldpinch.clickSearchButton()[pri:6, instance:Oldpinch@1fbc7afb]" name="clickSearchButton" class="Oldpinch"/>
+        <method signature="Oldpinch.editCart()[pri:26, instance:Oldpinch@1fbc7afb]" name="editCart" class="Oldpinch"/>
+        <method signature="Oldpinch.enterSearchText(java.lang.String)[pri:4, instance:Oldpinch@1fbc7afb]" name="enterSearchText" class="Oldpinch"/>
+      </group> <!-- Product -->
+    </groups>
+    <test name="OldPinch test" duration-ms="92016" started-at="2022-05-04T05:20:35Z" finished-at="2022-05-04T05:22:07Z">
+      <class name="Oldpinch">
+        <test-method status="PASS" signature="invokeBrowser()[pri:1, instance:Oldpinch@1fbc7afb]" name="invokeBrowser" duration-ms="2860" started-at="2022-05-04T05:20:35Z" finished-at="2022-05-04T05:20:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="enterUrl(java.lang.String)[pri:2, instance:Oldpinch@1fbc7afb]" name="enterUrl" duration-ms="7220" started-at="2022-05-04T05:20:38Z" finished-at="2022-05-04T05:20:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://oldpinch.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="maximizeWindow()[pri:3, instance:Oldpinch@1fbc7afb]" name="maximizeWindow" duration-ms="157" started-at="2022-05-04T05:20:45Z" finished-at="2022-05-04T05:20:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- maximizeWindow -->
+        <test-method status="PASS" signature="enterSearchText(java.lang.String)[pri:4, instance:Oldpinch@1fbc7afb]" name="enterSearchText" duration-ms="216" started-at="2022-05-04T05:20:46Z" finished-at="2022-05-04T05:20:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunglasses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSearchText -->
+        <test-method status="PASS" signature="clickSearchButton()[pri:6, instance:Oldpinch@1fbc7afb]" name="clickSearchButton" duration-ms="5356" started-at="2022-05-04T05:20:46Z" finished-at="2022-05-04T05:20:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSearchButton -->
+        <test-method status="PASS" signature="clickItem()[pri:10, instance:Oldpinch@1fbc7afb]" name="clickItem" duration-ms="8860" started-at="2022-05-04T05:20:51Z" finished-at="2022-05-04T05:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickItem -->
+        <test-method status="PASS" signature="clearQuantity()[pri:13, instance:Oldpinch@1fbc7afb]" name="clearQuantity" duration-ms="201" started-at="2022-05-04T05:21:00Z" finished-at="2022-05-04T05:21:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearQuantity -->
+        <test-method status="PASS" signature="addQuantity(java.lang.String)[pri:15, instance:Oldpinch@1fbc7afb]" name="addQuantity" duration-ms="3231" started-at="2022-05-04T05:21:00Z" finished-at="2022-05-04T05:21:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addQuantity -->
+        <test-method status="PASS" signature="clickAddToCart()[pri:20, instance:Oldpinch@1fbc7afb]" name="clickAddToCart" duration-ms="4120" started-at="2022-05-04T05:21:03Z" finished-at="2022-05-04T05:21:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickAddToCart -->
+        <test-method status="PASS" signature="clickNextPic()[pri:21, instance:Oldpinch@1fbc7afb]" name="clickNextPic" duration-ms="2181" started-at="2022-05-04T05:21:08Z" finished-at="2022-05-04T05:21:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickNextPic -->
+        <test-method status="PASS" signature="clickCart()[pri:24, instance:Oldpinch@1fbc7afb]" name="clickCart" duration-ms="5122" started-at="2022-05-04T05:21:10Z" finished-at="2022-05-04T05:21:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickCart -->
+        <test-method status="PASS" signature="editCart()[pri:26, instance:Oldpinch@1fbc7afb]" name="editCart" duration-ms="6133" started-at="2022-05-04T05:21:15Z" finished-at="2022-05-04T05:21:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editCart -->
+        <test-method status="PASS" signature="clickProceedToCheckout()[pri:28, instance:Oldpinch@1fbc7afb]" name="clickProceedToCheckout" duration-ms="1226" started-at="2022-05-04T05:21:21Z" finished-at="2022-05-04T05:21:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedToCheckout -->
+        <test-method status="PASS" signature="enterEmail(java.lang.String)[pri:30, instance:Oldpinch@1fbc7afb]" name="enterEmail" duration-ms="1162" started-at="2022-05-04T05:21:22Z" finished-at="2022-05-04T05:21:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[randomEmail@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="enterPassword(java.lang.String)[pri:31, instance:Oldpinch@1fbc7afb]" name="enterPassword" duration-ms="162" started-at="2022-05-04T05:21:23Z" finished-at="2022-05-04T05:21:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[r@ndomPassword12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="enterSignIn()[pri:33, instance:Oldpinch@1fbc7afb]" name="enterSignIn" duration-ms="8558" started-at="2022-05-04T05:21:24Z" finished-at="2022-05-04T05:21:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterSignIn -->
+        <test-method status="PASS" signature="checkOutAgain()[pri:35, instance:Oldpinch@1fbc7afb]" name="checkOutAgain" duration-ms="11757" started-at="2022-05-04T05:21:32Z" finished-at="2022-05-04T05:21:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutAgain -->
+        <test-method status="PASS" signature="enterCompany(java.lang.String)[pri:37, instance:Oldpinch@1fbc7afb]" name="enterCompany" duration-ms="360" started-at="2022-05-04T05:21:44Z" finished-at="2022-05-04T05:21:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[random Company]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterCompany -->
+        <test-method status="PASS" signature="enterAddress(java.lang.String)[pri:38, instance:Oldpinch@1fbc7afb]" name="enterAddress" duration-ms="1292" started-at="2022-05-04T05:21:44Z" finished-at="2022-05-04T05:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[some Random address]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterAddress -->
+        <test-method status="PASS" signature="city(java.lang.String)[pri:39, instance:Oldpinch@1fbc7afb]" name="city" duration-ms="287" started-at="2022-05-04T05:21:46Z" finished-at="2022-05-04T05:21:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Achham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- city -->
+        <test-method status="PASS" signature="selectCountry(java.lang.String)[pri:39, instance:Oldpinch@1fbc7afb]" name="selectCountry" duration-ms="962" started-at="2022-05-04T05:21:46Z" finished-at="2022-05-04T05:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Nepal]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectCountry -->
+        <test-method status="PASS" signature="selectState(java.lang.String)[pri:40, instance:Oldpinch@1fbc7afb]" name="selectState" duration-ms="133" started-at="2022-05-04T05:21:47Z" finished-at="2022-05-04T05:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Achham]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectState -->
+        <test-method status="PASS" signature="zip(java.lang.String)[pri:42, instance:Oldpinch@1fbc7afb]" name="zip" duration-ms="148" started-at="2022-05-04T05:21:47Z" finished-at="2022-05-04T05:21:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[444444]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zip -->
+        <test-method status="PASS" signature="phone(java.lang.String)[pri:43, instance:Oldpinch@1fbc7afb]" name="phone" duration-ms="5302" started-at="2022-05-04T05:21:47Z" finished-at="2022-05-04T05:21:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1212121212]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- phone -->
+        <test-method status="PASS" signature="clickPayment()[pri:44, instance:Oldpinch@1fbc7afb]" name="clickPayment" duration-ms="5180" started-at="2022-05-04T05:21:52Z" finished-at="2022-05-04T05:21:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPayment -->
+        <test-method status="PASS" signature="clickOnline()[pri:50, instance:Oldpinch@1fbc7afb]" name="clickOnline" duration-ms="6408" started-at="2022-05-04T05:21:58Z" finished-at="2022-05-04T05:22:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnline -->
+        <test-method status="PASS" signature="enterText()[pri:51, instance:Oldpinch@1fbc7afb]" name="enterText" duration-ms="3249" started-at="2022-05-04T05:22:04Z" finished-at="2022-05-04T05:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterText -->
+        <test-method status="PASS" signature="sendChat()[pri:52, instance:Oldpinch@1fbc7afb]" name="sendChat" duration-ms="97" started-at="2022-05-04T05:22:07Z" finished-at="2022-05-04T05:22:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendChat -->
+      </class> <!-- Oldpinch -->
+    </test> <!-- OldPinch test -->
+    <test name="SastoDeal test" duration-ms="147717" started-at="2022-05-04T05:22:07Z" finished-at="2022-05-04T05:24:35Z">
+      <class name="SastoDeal">
+        <test-method status="PASS" signature="invokeBrowser()[pri:1, instance:SastoDeal@3ac3fd8b]" name="invokeBrowser" duration-ms="1559" started-at="2022-05-04T05:22:07Z" finished-at="2022-05-04T05:22:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method status="PASS" signature="enterUrl(java.lang.String)[pri:2, instance:SastoDeal@3ac3fd8b]" name="enterUrl" duration-ms="16536" started-at="2022-05-04T05:22:09Z" finished-at="2022-05-04T05:22:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.sastodeal.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="PASS" signature="checkTitle()[pri:3, instance:SastoDeal@3ac3fd8b]" name="checkTitle" duration-ms="8" started-at="2022-05-04T05:22:25Z" finished-at="2022-05-04T05:22:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTitle -->
+        <test-method status="PASS" signature="moveCursor()[pri:5, instance:SastoDeal@3ac3fd8b]" name="moveCursor" duration-ms="5173" started-at="2022-05-04T05:22:25Z" finished-at="2022-05-04T05:22:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveCursor -->
+        <test-method status="PASS" signature="clickProductCategory()[pri:7, instance:SastoDeal@3ac3fd8b]" name="clickProductCategory" duration-ms="8259" started-at="2022-05-04T05:22:31Z" finished-at="2022-05-04T05:22:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProductCategory -->
+        <test-method status="PASS" signature="clickItem()[pri:9, instance:SastoDeal@3ac3fd8b]" name="clickItem" duration-ms="10627" started-at="2022-05-04T05:22:39Z" finished-at="2022-05-04T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickItem -->
+        <test-method status="PASS" signature="addToCart()[pri:11, instance:SastoDeal@3ac3fd8b]" name="addToCart" duration-ms="328" started-at="2022-05-04T05:22:50Z" finished-at="2022-05-04T05:22:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="enterEmail(java.lang.String)[pri:15, instance:SastoDeal@3ac3fd8b]" name="enterEmail" duration-ms="282" started-at="2022-05-04T05:22:50Z" finished-at="2022-05-04T05:22:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[amirmanandhar72@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterEmail -->
+        <test-method status="PASS" signature="enterPassword(java.lang.String)[pri:16, instance:SastoDeal@3ac3fd8b]" name="enterPassword" duration-ms="176" started-at="2022-05-04T05:22:50Z" finished-at="2022-05-04T05:22:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sund@y12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterPassword -->
+        <test-method status="PASS" signature="clickSignIn()[pri:17, instance:SastoDeal@3ac3fd8b]" name="clickSignIn" duration-ms="192" started-at="2022-05-04T05:22:50Z" finished-at="2022-05-04T05:22:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickSignIn -->
+        <test-method status="PASS" signature="addToCartAfterLogin()[pri:20, instance:SastoDeal@3ac3fd8b]" name="addToCartAfterLogin" duration-ms="10137" started-at="2022-05-04T05:22:51Z" finished-at="2022-05-04T05:23:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartAfterLogin -->
+        <test-method status="PASS" signature="goToCart()[pri:23, instance:SastoDeal@3ac3fd8b]" name="goToCart" duration-ms="3341" started-at="2022-05-04T05:23:01Z" finished-at="2022-05-04T05:23:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goToCart -->
+        <test-method status="PASS" signature="clickViewCart()[pri:25, instance:SastoDeal@3ac3fd8b]" name="clickViewCart" duration-ms="8697" started-at="2022-05-04T05:23:04Z" finished-at="2022-05-04T05:23:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickViewCart -->
+        <test-method status="PASS" signature="clickProceedToCheckOut()[pri:27, instance:SastoDeal@3ac3fd8b]" name="clickProceedToCheckOut" duration-ms="10403" started-at="2022-05-04T05:23:13Z" finished-at="2022-05-04T05:23:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedToCheckOut -->
+        <test-method status="PASS" signature="clickProceedToPayment()[pri:40, instance:SastoDeal@3ac3fd8b]" name="clickProceedToPayment" duration-ms="3655" started-at="2022-05-04T05:23:23Z" finished-at="2022-05-04T05:23:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickProceedToPayment -->
+        <test-method status="FAIL" signature="clickPaymentMethod()[pri:42, instance:SastoDeal@3ac3fd8b]" name="clickPaymentMethod" duration-ms="68321" started-at="2022-05-04T05:23:27Z" finished-at="2022-05-04T05:24:35Z">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: jQuery is not defined
+  (Session info: chrome=101.0.4951.41)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P1HF71B', ip: '10.139.14.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\AMIR~1.MAN\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45c45370644b2207acdbf1c36c304b71]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: jQuery is not defined
+  (Session info: chrome=101.0.4951.41)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-P1HF71B', ip: '10.139.14.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_201'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\AMIR~1.MAN\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45c45370644b2207acdbf1c36c304b71
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+at SastoDeal.ajax(SastoDeal.java:21)
+at SastoDeal.clickPaymentMethod(SastoDeal.java:139)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPaymentMethod -->
+      </class> <!-- SastoDeal -->
+    </test> <!-- SastoDeal test -->
+  </suite> <!-- Project Suite -->
+</testng-results>

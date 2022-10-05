@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Project Suite">
+    <test name="OldPinch test">
+        <parameter name="testng.metrics.report.logo" value = "https://i.ibb.co/FqtQyC5/rfh.png"/>
+        <parameter name="testng.metrics.report.name" value = "regression.html"/>
+        <parameter name="testng.metrics.report.appendTimestamp" value = "True"/>
+        <parameter name="URL" value="https://oldpinch.com/"/>
+        <parameter name="searchText" value="sunglasses"/>
+        <parameter name="quantity" value="3"/>
+        <parameter name="email" value="randomEmail@gmail.com"/>
+        <parameter name="password" value="r@ndomPassword12345"/>
+        <parameter name="company" value="random Company"/>
+        <parameter name="address" value="some Random address"/>
+        <parameter name="city" value="someRandomCity"/>
+        <parameter name="country" value="Nepal"/>
+        <parameter name="city" value="Achham"/>
+        <parameter name="state" value="Achham"/>
+        <parameter name="zip" value="444444"/>
+        <parameter name="phone" value="1212121212"/>
+
+        <groups>
+            <run>
+                <include name="BrowserSetup" />
+                <include name="Product" />
+                <include name="Payment" />
+                <include name="Chat" />
+
+            </run>
+        </groups>
+        <classes>
+            <class name="Oldpinch"/>
+        </classes>
+    </test> <!-- Test -->
+    <test name="SastoDeal test">
+        <parameter name="testng.metrics.report.logo" value = "https://i.ibb.co/FqtQyC5/rfh.png"/>
+        <parameter name="testng.metrics.report.name" value = "regression.html"/>
+        <parameter name="testng.metrics.report.appendTimestamp" value = "True"/>
+        <parameter name="URL" value="https://www.sastodeal.com/"/>
+        <parameter name="email" value="amirmanandhar72@gmail.com"/>
+        <parameter name="password" value="Sund@y12345"/>
+        <parameter name="address" value="Itachhen-2,Bhaktapur"/>
+        <parameter name="province" value="Provinces No 3"/>
+        <parameter name="district" value="Bhaktapur"/>
+        <parameter name="region" value="Sallaghari"/>
+        <parameter name="number" value="9860200885"/>
+        <classes>
+            <class name="SastoDeal"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

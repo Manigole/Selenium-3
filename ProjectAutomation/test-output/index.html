@@ -1,0 +1,1327 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Project_Suite">
+              <span class="suite-name border-failed">Project Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Project_Suite">
+                    <span>E:\Trainning\Automation\ProjectAutomation\src\main\java\OldPinch.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Project_Suite">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Project_Suite">
+                    <span>4 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Project_Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Project_Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Project_Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Project_Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">44 methods, 1 failed,   43 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Project_Suite" class="hide-methods failed suite-Project_Suite"> (hide)</a> <!-- hide-methods failed suite-Project_Suite -->
+                      <a href="#" panel-name="suite-Project_Suite" class="show-methods failed suite-Project_Suite"> (show)</a> <!-- show-methods failed suite-Project_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Project_Suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickPaymentMethod">clickPaymentMethod</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Project_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Project_Suite" class="hide-methods passed suite-Project_Suite"> (hide)</a> <!-- hide-methods passed suite-Project_Suite -->
+                      <a href="#" panel-name="suite-Project_Suite" class="show-methods passed suite-Project_Suite"> (show)</a> <!-- show-methods passed suite-Project_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Project_Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="addQuantity(3)">addQuantity(3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="addToCart">addToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="addToCartAfterLogin">addToCartAfterLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="checkOutAgain">checkOutAgain</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="checkTitle">checkTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="city(Achham)">city(Achham)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clearQuantity">clearQuantity</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickAddToCart">clickAddToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickCart">clickCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickItem">clickItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickItem">clickItem</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickNextPic">clickNextPic</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickOnline">clickOnline</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickPayment">clickPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickProceedToCheckOut">clickProceedToCheckOut</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickProceedToCheckout">clickProceedToCheckout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickProceedToPayment">clickProceedToPayment</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickProductCategory">clickProductCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="clickSearchButton">clickSearchButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickSignIn">clickSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="clickViewCart">clickViewCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="editCart">editCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterAddress(some Random address)">enterAddress(some Random address)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterCompany(random Company)">enterCompany(random Company)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterEmail(randomEmail@gmail.com)">enterEmail(randomEmail@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="enterEmail(amirmanandhar72@gmail.com)">enterEmail(amirmanandhar72@gmail.com)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterPassword(r@ndomPassword12345)">enterPassword(r@ndomPassword12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="enterPassword(Sund@y12345)">enterPassword(Sund@y12345)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterSearchText(sunglasses)">enterSearchText(sunglasses)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterSignIn">enterSignIn</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterText">enterText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="enterUrl(https://oldpinch.com/)">enterUrl(https://oldpinch.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="enterUrl(https://www.sastodeal.com/)">enterUrl(https://www.sastodeal.com/)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="goToCart">goToCart</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="invokeBrowser">invokeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="invokeBrowser">invokeBrowser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="maximizeWindow">maximizeWindow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="SastoDeal" hash-for-method="moveCursor">moveCursor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="phone(1212121212)">phone(1212121212)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="selectCountry(Nepal)">selectCountry(Nepal)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="selectState(Achham)">selectState(Achham)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="sendChat">sendChat</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Project_Suite" title="Oldpinch" hash-for-method="zip(444444)">zip(444444)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Project_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Project_Suite" class="panel Project_Suite">
+          <div class="suite-Project_Suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">SastoDeal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPaymentMethod">
+                  </a> <!-- clickPaymentMethod -->
+                  <span class="method-name">clickPaymentMethod</span>
+                  <div class="stack-trace">org.openqa.selenium.JavascriptException: javascript error: jQuery is not defined
+  (Session info: chrome=101.0.4951.41)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-P1HF71B&apos;, ip: &apos;10.139.14.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_201&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 101.0.4951.41, chrome: {chromedriverVersion: 101.0.4951.41 (93c720db8323..., userDataDir: C:\Users\AMIR~1.MAN\AppData...}, goog:chromeOptions: {debuggerAddress: localhost:63274}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 45c45370644b2207acdbf1c36c304b71
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at SastoDeal.ajax(SastoDeal.java:21)
+	at SastoDeal.clickPaymentMethod(SastoDeal.java:139)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+... Removed 26 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project_Suite-class-failed -->
+          <div class="suite-Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Oldpinch</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addQuantity(3)">
+                  </a> <!-- addQuantity(3) -->
+                  <span class="method-name">addQuantity</span>
+                  <span class="parameters">(3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkOutAgain">
+                  </a> <!-- checkOutAgain -->
+                  <span class="method-name">checkOutAgain</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="city(Achham)">
+                  </a> <!-- city(Achham) -->
+                  <span class="method-name">city</span>
+                  <span class="parameters">(Achham)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearQuantity">
+                  </a> <!-- clearQuantity -->
+                  <span class="method-name">clearQuantity</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickAddToCart">
+                  </a> <!-- clickAddToCart -->
+                  <span class="method-name">clickAddToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickCart">
+                  </a> <!-- clickCart -->
+                  <span class="method-name">clickCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickItem">
+                  </a> <!-- clickItem -->
+                  <span class="method-name">clickItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickNextPic">
+                  </a> <!-- clickNextPic -->
+                  <span class="method-name">clickNextPic</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickOnline">
+                  </a> <!-- clickOnline -->
+                  <span class="method-name">clickOnline</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickPayment">
+                  </a> <!-- clickPayment -->
+                  <span class="method-name">clickPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProceedToCheckout">
+                  </a> <!-- clickProceedToCheckout -->
+                  <span class="method-name">clickProceedToCheckout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSearchButton">
+                  </a> <!-- clickSearchButton -->
+                  <span class="method-name">clickSearchButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="editCart">
+                  </a> <!-- editCart -->
+                  <span class="method-name">editCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterAddress(some Random address)">
+                  </a> <!-- enterAddress(some Random address) -->
+                  <span class="method-name">enterAddress</span>
+                  <span class="parameters">(some Random address)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterCompany(random Company)">
+                  </a> <!-- enterCompany(random Company) -->
+                  <span class="method-name">enterCompany</span>
+                  <span class="parameters">(random Company)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail(randomEmail@gmail.com)">
+                  </a> <!-- enterEmail(randomEmail@gmail.com) -->
+                  <span class="method-name">enterEmail</span>
+                  <span class="parameters">(randomEmail@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword(r@ndomPassword12345)">
+                  </a> <!-- enterPassword(r@ndomPassword12345) -->
+                  <span class="method-name">enterPassword</span>
+                  <span class="parameters">(r@ndomPassword12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSearchText(sunglasses)">
+                  </a> <!-- enterSearchText(sunglasses) -->
+                  <span class="method-name">enterSearchText</span>
+                  <span class="parameters">(sunglasses)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterSignIn">
+                  </a> <!-- enterSignIn -->
+                  <span class="method-name">enterSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterText">
+                  </a> <!-- enterText -->
+                  <span class="method-name">enterText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterUrl(https://oldpinch.com/)">
+                  </a> <!-- enterUrl(https://oldpinch.com/) -->
+                  <span class="method-name">enterUrl</span>
+                  <span class="parameters">(https://oldpinch.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invokeBrowser">
+                  </a> <!-- invokeBrowser -->
+                  <span class="method-name">invokeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="maximizeWindow">
+                  </a> <!-- maximizeWindow -->
+                  <span class="method-name">maximizeWindow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="phone(1212121212)">
+                  </a> <!-- phone(1212121212) -->
+                  <span class="method-name">phone</span>
+                  <span class="parameters">(1212121212)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectCountry(Nepal)">
+                  </a> <!-- selectCountry(Nepal) -->
+                  <span class="method-name">selectCountry</span>
+                  <span class="parameters">(Nepal)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="selectState(Achham)">
+                  </a> <!-- selectState(Achham) -->
+                  <span class="method-name">selectState</span>
+                  <span class="parameters">(Achham)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sendChat">
+                  </a> <!-- sendChat -->
+                  <span class="method-name">sendChat</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zip(444444)">
+                  </a> <!-- zip(444444) -->
+                  <span class="method-name">zip</span>
+                  <span class="parameters">(444444)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project_Suite-class-passed -->
+          <div class="suite-Project_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">SastoDeal</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCart">
+                  </a> <!-- addToCart -->
+                  <span class="method-name">addToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addToCartAfterLogin">
+                  </a> <!-- addToCartAfterLogin -->
+                  <span class="method-name">addToCartAfterLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkTitle">
+                  </a> <!-- checkTitle -->
+                  <span class="method-name">checkTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickItem">
+                  </a> <!-- clickItem -->
+                  <span class="method-name">clickItem</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProceedToCheckOut">
+                  </a> <!-- clickProceedToCheckOut -->
+                  <span class="method-name">clickProceedToCheckOut</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProceedToPayment">
+                  </a> <!-- clickProceedToPayment -->
+                  <span class="method-name">clickProceedToPayment</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickProductCategory">
+                  </a> <!-- clickProductCategory -->
+                  <span class="method-name">clickProductCategory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickSignIn">
+                  </a> <!-- clickSignIn -->
+                  <span class="method-name">clickSignIn</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clickViewCart">
+                  </a> <!-- clickViewCart -->
+                  <span class="method-name">clickViewCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterEmail(amirmanandhar72@gmail.com)">
+                  </a> <!-- enterEmail(amirmanandhar72@gmail.com) -->
+                  <span class="method-name">enterEmail</span>
+                  <span class="parameters">(amirmanandhar72@gmail.com)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterPassword(Sund@y12345)">
+                  </a> <!-- enterPassword(Sund@y12345) -->
+                  <span class="method-name">enterPassword</span>
+                  <span class="parameters">(Sund@y12345)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="enterUrl(https://www.sastodeal.com/)">
+                  </a> <!-- enterUrl(https://www.sastodeal.com/) -->
+                  <span class="method-name">enterUrl</span>
+                  <span class="parameters">(https://www.sastodeal.com/)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="goToCart">
+                  </a> <!-- goToCart -->
+                  <span class="method-name">goToCart</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invokeBrowser">
+                  </a> <!-- invokeBrowser -->
+                  <span class="method-name">invokeBrowser</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="moveCursor">
+                  </a> <!-- moveCursor -->
+                  <span class="method-name">moveCursor</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Project_Suite-class-passed -->
+        </div> <!-- panel Project_Suite -->
+        <div panel-name="test-xml-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Trainning\Automation\ProjectAutomation\src\main\java\OldPinch.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Project Suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;OldPinch test&quot;&gt;
+    &lt;parameter name=&quot;zip&quot; value=&quot;444444&quot;/&gt;
+    &lt;parameter name=&quot;country&quot; value=&quot;Nepal&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.name&quot; value=&quot;regression.html&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.logo&quot; value=&quot;https://i.ibb.co/FqtQyC5/rfh.png&quot;/&gt;
+    &lt;parameter name=&quot;quantity&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;some Random address&quot;/&gt;
+    &lt;parameter name=&quot;city&quot; value=&quot;Achham&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.appendTimestamp&quot; value=&quot;True&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://oldpinch.com/&quot;/&gt;
+    &lt;parameter name=&quot;searchText&quot; value=&quot;sunglasses&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;r@ndomPassword12345&quot;/&gt;
+    &lt;parameter name=&quot;phone&quot; value=&quot;1212121212&quot;/&gt;
+    &lt;parameter name=&quot;company&quot; value=&quot;random Company&quot;/&gt;
+    &lt;parameter name=&quot;state&quot; value=&quot;Achham&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;randomEmail@gmail.com&quot;/&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;BrowserSetup&quot;/&gt;
+        &lt;include name=&quot;Product&quot;/&gt;
+        &lt;include name=&quot;Payment&quot;/&gt;
+        &lt;include name=&quot;Chat&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Oldpinch&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- OldPinch test --&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;SastoDeal test&quot;&gt;
+    &lt;parameter name=&quot;number&quot; value=&quot;9860200885&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.name&quot; value=&quot;regression.html&quot;/&gt;
+    &lt;parameter name=&quot;password&quot; value=&quot;Sund@y12345&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.logo&quot; value=&quot;https://i.ibb.co/FqtQyC5/rfh.png&quot;/&gt;
+    &lt;parameter name=&quot;address&quot; value=&quot;Itachhen-2,Bhaktapur&quot;/&gt;
+    &lt;parameter name=&quot;province&quot; value=&quot;Provinces No 3&quot;/&gt;
+    &lt;parameter name=&quot;testng.metrics.report.appendTimestamp&quot; value=&quot;True&quot;/&gt;
+    &lt;parameter name=&quot;district&quot; value=&quot;Bhaktapur&quot;/&gt;
+    &lt;parameter name=&quot;region&quot; value=&quot;Sallaghari&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.sastodeal.com/&quot;/&gt;
+    &lt;parameter name=&quot;email&quot; value=&quot;amirmanandhar72@gmail.com&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;SastoDeal&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SastoDeal test --&gt;
+&lt;/suite&gt; &lt;!-- Project Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">OldPinch test (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SastoDeal test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">BrowserSetup</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterUrl</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">invokeBrowser</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">maximizeWindow</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Chat</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickOnline</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">sendChat</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Payment</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">checkOutAgain</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">city</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickPayment</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickProceedToCheckout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterAddress</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterCompany</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterEmail</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterPassword</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSignIn</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">phone</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectCountry</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">selectState</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">zip</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">Product</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">addQuantity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clearQuantity</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickAddToCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickItem</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickNextPic</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">clickSearchButton</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">editCart</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">enterSearchText</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Project_Suite');
+function tableData_Project_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(44);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'clickPaymentMethod')
+data.setCell(0, 2, 'SastoDeal')
+data.setCell(0, 3, 68321);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'enterUrl')
+data.setCell(1, 2, 'SastoDeal')
+data.setCell(1, 3, 16536);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'checkOutAgain')
+data.setCell(2, 2, 'Oldpinch')
+data.setCell(2, 3, 11757);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'clickItem')
+data.setCell(3, 2, 'SastoDeal')
+data.setCell(3, 3, 10627);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'clickProceedToCheckOut')
+data.setCell(4, 2, 'SastoDeal')
+data.setCell(4, 3, 10403);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'addToCartAfterLogin')
+data.setCell(5, 2, 'SastoDeal')
+data.setCell(5, 3, 10137);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clickItem')
+data.setCell(6, 2, 'Oldpinch')
+data.setCell(6, 3, 8860);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'clickViewCart')
+data.setCell(7, 2, 'SastoDeal')
+data.setCell(7, 3, 8697);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'enterSignIn')
+data.setCell(8, 2, 'Oldpinch')
+data.setCell(8, 3, 8558);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'clickProductCategory')
+data.setCell(9, 2, 'SastoDeal')
+data.setCell(9, 3, 8259);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'enterUrl')
+data.setCell(10, 2, 'Oldpinch')
+data.setCell(10, 3, 7220);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'clickOnline')
+data.setCell(11, 2, 'Oldpinch')
+data.setCell(11, 3, 6408);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'editCart')
+data.setCell(12, 2, 'Oldpinch')
+data.setCell(12, 3, 6133);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'clickSearchButton')
+data.setCell(13, 2, 'Oldpinch')
+data.setCell(13, 3, 5356);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'phone')
+data.setCell(14, 2, 'Oldpinch')
+data.setCell(14, 3, 5302);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'clickPayment')
+data.setCell(15, 2, 'Oldpinch')
+data.setCell(15, 3, 5180);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'moveCursor')
+data.setCell(16, 2, 'SastoDeal')
+data.setCell(16, 3, 5173);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'clickCart')
+data.setCell(17, 2, 'Oldpinch')
+data.setCell(17, 3, 5122);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'clickAddToCart')
+data.setCell(18, 2, 'Oldpinch')
+data.setCell(18, 3, 4120);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'clickProceedToPayment')
+data.setCell(19, 2, 'SastoDeal')
+data.setCell(19, 3, 3655);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'goToCart')
+data.setCell(20, 2, 'SastoDeal')
+data.setCell(20, 3, 3341);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'enterText')
+data.setCell(21, 2, 'Oldpinch')
+data.setCell(21, 3, 3249);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'addQuantity')
+data.setCell(22, 2, 'Oldpinch')
+data.setCell(22, 3, 3231);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'invokeBrowser')
+data.setCell(23, 2, 'Oldpinch')
+data.setCell(23, 3, 2860);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'clickNextPic')
+data.setCell(24, 2, 'Oldpinch')
+data.setCell(24, 3, 2181);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'invokeBrowser')
+data.setCell(25, 2, 'SastoDeal')
+data.setCell(25, 3, 1559);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'enterAddress')
+data.setCell(26, 2, 'Oldpinch')
+data.setCell(26, 3, 1292);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'clickProceedToCheckout')
+data.setCell(27, 2, 'Oldpinch')
+data.setCell(27, 3, 1226);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'enterEmail')
+data.setCell(28, 2, 'Oldpinch')
+data.setCell(28, 3, 1162);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'selectCountry')
+data.setCell(29, 2, 'Oldpinch')
+data.setCell(29, 3, 962);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'enterCompany')
+data.setCell(30, 2, 'Oldpinch')
+data.setCell(30, 3, 360);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'addToCart')
+data.setCell(31, 2, 'SastoDeal')
+data.setCell(31, 3, 328);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'city')
+data.setCell(32, 2, 'Oldpinch')
+data.setCell(32, 3, 287);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'enterEmail')
+data.setCell(33, 2, 'SastoDeal')
+data.setCell(33, 3, 282);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'enterSearchText')
+data.setCell(34, 2, 'Oldpinch')
+data.setCell(34, 3, 216);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'clearQuantity')
+data.setCell(35, 2, 'Oldpinch')
+data.setCell(35, 3, 201);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'clickSignIn')
+data.setCell(36, 2, 'SastoDeal')
+data.setCell(36, 3, 192);
+data.setCell(37, 0, 37)
+data.setCell(37, 1, 'enterPassword')
+data.setCell(37, 2, 'SastoDeal')
+data.setCell(37, 3, 176);
+data.setCell(38, 0, 38)
+data.setCell(38, 1, 'enterPassword')
+data.setCell(38, 2, 'Oldpinch')
+data.setCell(38, 3, 162);
+data.setCell(39, 0, 39)
+data.setCell(39, 1, 'maximizeWindow')
+data.setCell(39, 2, 'Oldpinch')
+data.setCell(39, 3, 157);
+data.setCell(40, 0, 40)
+data.setCell(40, 1, 'zip')
+data.setCell(40, 2, 'Oldpinch')
+data.setCell(40, 3, 148);
+data.setCell(41, 0, 41)
+data.setCell(41, 1, 'selectState')
+data.setCell(41, 2, 'Oldpinch')
+data.setCell(41, 3, 133);
+data.setCell(42, 0, 42)
+data.setCell(42, 1, 'sendChat')
+data.setCell(42, 2, 'Oldpinch')
+data.setCell(42, 3, 97);
+data.setCell(43, 0, 43)
+data.setCell(43, 1, 'checkTitle')
+data.setCell(43, 2, 'SastoDeal')
+data.setCell(43, 3, 8);
+window.suiteTableData['Project_Suite']= { tableData: data, tableDiv: 'times-div-Project_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Project_Suite">
+              </div> <!-- times-div-Project_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Project Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Project_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Oldpinch</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterUrl(https://oldpinch.com/)</span>
+                <span class="method-start">2870 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">maximizeWindow</span>
+                <span class="method-start">10091 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterSearchText(sunglasses)</span>
+                <span class="method-start">10250 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSearchButton</span>
+                <span class="method-start">10468 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickItem</span>
+                <span class="method-start">15825 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clearQuantity</span>
+                <span class="method-start">24686 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addQuantity(3)</span>
+                <span class="method-start">24889 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickAddToCart</span>
+                <span class="method-start">28121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickNextPic</span>
+                <span class="method-start">32242 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickCart</span>
+                <span class="method-start">34424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">editCart</span>
+                <span class="method-start">39548 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickProceedToCheckout</span>
+                <span class="method-start">45682 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail(randomEmail@gmail.com)</span>
+                <span class="method-start">46910 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterPassword(r@ndomPassword12345)</span>
+                <span class="method-start">48074 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterSignIn</span>
+                <span class="method-start">48237 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkOutAgain</span>
+                <span class="method-start">56796 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterCompany(random Company)</span>
+                <span class="method-start">68555 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterAddress(some Random address)</span>
+                <span class="method-start">68915 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">city(Achham)</span>
+                <span class="method-start">70208 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectCountry(Nepal)</span>
+                <span class="method-start">70495 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">selectState(Achham)</span>
+                <span class="method-start">71459 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">zip(444444)</span>
+                <span class="method-start">71593 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">phone(1212121212)</span>
+                <span class="method-start">71742 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickPayment</span>
+                <span class="method-start">77044 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickOnline</span>
+                <span class="method-start">82226 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterText</span>
+                <span class="method-start">88635 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sendChat</span>
+                <span class="method-start">91884 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">SastoDeal</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">invokeBrowser</span>
+                <span class="method-start">92036 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterUrl(https://www.sastodeal.com/)</span>
+                <span class="method-start">93596 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">checkTitle</span>
+                <span class="method-start">110133 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">moveCursor</span>
+                <span class="method-start">110142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickProductCategory</span>
+                <span class="method-start">115315 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickItem</span>
+                <span class="method-start">123575 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCart</span>
+                <span class="method-start">134204 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterEmail(amirmanandhar72@gmail.com)</span>
+                <span class="method-start">134532 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">enterPassword(Sund@y12345)</span>
+                <span class="method-start">134814 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickSignIn</span>
+                <span class="method-start">134991 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">addToCartAfterLogin</span>
+                <span class="method-start">135184 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">goToCart</span>
+                <span class="method-start">145321 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickViewCart</span>
+                <span class="method-start">148662 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickProceedToCheckOut</span>
+                <span class="method-start">157360 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">clickProceedToPayment</span>
+                <span class="method-start">167764 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">clickPaymentMethod</span>
+                <span class="method-start">171419 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
